@@ -6,7 +6,7 @@
   - **Security** - Implements other systems such as Authentication and Compliance and security to ensure the security of the financial information
 
 ## Communication with other systems (planned and carried out)
-1. [x] **Order Management system**
+1. [x] **Order Management system** - Defunct
 2. [ ] **Authentication system**
 3. [X] **Compliance and security system** - https://github.com/BUAdvDev2024/ComplianceAndSecuritySystem
 4. [ ] **Logistics Management system**
