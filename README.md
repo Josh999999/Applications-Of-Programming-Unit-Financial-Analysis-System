@@ -8,7 +8,7 @@
 ## Communication with other systems (planned and carried out)
 1. [x] **Order Management system**
 2. [ ] **Authentication system**
-3. [X] **Compliance and security system**
+3. [X] **Compliance and security system** - https://github.com/BUAdvDev2024/ComplianceAndSecuritySystem
 4. [ ] **Logistics Management system**
 5. [ ] **Payroll management system**
 
