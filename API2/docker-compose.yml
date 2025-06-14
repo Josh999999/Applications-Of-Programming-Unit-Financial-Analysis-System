@@ -1,0 +1,19 @@
+services:
+  financial-analysis-system:   
+    image: ghcr.io/buadvdev2024/financial-analysis-system:main
+    build:
+      # context: . # remove me if launching from github package (not development)
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    ports:
+      - 5000:5000
+    command: ["gunicorn", "--bind", "0.0.0.0:5000", "app.main:app"]
+    networks:
+      - shared_network
+
+networks:
+  shared_network:
+    external: true

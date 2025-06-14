@@ -1,0 +1,13 @@
+flask>=3.0.1
+gunicorn
+datetime
+requests
+jsonify
+python-dotenv
+rich
+flask_cors
+pandas
+matplotlib
+seaborn
+flask_sqlalchemy
+sqlalchemy

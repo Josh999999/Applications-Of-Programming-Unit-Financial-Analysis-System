@@ -1,0 +1,14 @@
+services:
+  financial-analysis-system-web-app:
+    build:
+      # context: . # remove me if launching from github package (not development)
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    command: ["nginx", "-g", "daemon off;"]
+    networks:
+      - shared_network
+
+networks:
+  shared_network:
+    external: true

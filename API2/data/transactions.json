@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "date_time": "21/10/2024",
+        "amount": 100,
+        "comment": "None",
+        "transaction_type_id": 1
+    },
+    {
+        "id": 2,
+        "date_time": "21/10/2024",
+        "amount": 20,
+        "comment": "None",
+        "transaction_type_id": 1
+    },
+    {
+        "date_time": "21/10/2024",
+        "amount": 45,
+        "comment": "None",
+        "transaction_type_id": 1
+    }
+]
